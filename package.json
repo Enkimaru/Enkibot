@@ -1,0 +1,31 @@
+{
+  "name": "sfvreplaybot",
+  "version": "1.0.0",
+  "description": "A bot for Twitch to help channels organize their replay queues.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enkimaru/SFVReplayBot.git"
+  },
+  "author": "Enki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enkimaru/SFVReplayBot/issues"
+  },
+  "homepage": "https://github.com/Enkimaru/SFVReplayBot#readme",
+  "dependencies": {
+    "firstline": "^2.0.2",
+    "tmi.js": "^1.7.1"
+  },
+  "bin": "app.js",
+  "pkg": {
+    "assets": [],
+    "targets": [
+      "node10"
+    ]
+  }
+}
