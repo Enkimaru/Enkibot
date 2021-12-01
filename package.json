@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "enkibot": "concurrently \"node app.js\" \"cd react/dashboard && npm start\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/Enkimaru/SFVReplayBot#readme",
   "dependencies": {
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "firstline": "^2.0.2",
+    "log-timestamp": "^0.3.0",
     "tmi.js": "^1.7.1"
   },
   "bin": "app.js",
@@ -27,5 +32,8 @@
     "targets": [
       "node10"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
