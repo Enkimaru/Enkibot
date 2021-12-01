@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e0576b88-f322-438c-b1dc-57ad7758d683",
+    "username": "espectador1",
+    "replayId": "ABCABCABC",
+    "subscriber": true
+  },
+    {
+    "id": "e0576388-f322-438c-b1dc-57ad7758d683",
+    "username": "espectador2",
+    "replayId": "123123123",
+    "subscriber": false
+  },
+    {
+    "id": "e0576288-f322-438c-b1dc-57ad7758d683",
+    "username": "espectador3",
+    "replayId": "123456789",
+    "subscriber": false
+  }
+]
